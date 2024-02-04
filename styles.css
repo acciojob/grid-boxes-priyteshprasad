@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 #grid{
 	display: grid;
-	/* grid-template-rows: repeat(5, 124px); */
+	grid-template-rows: repeat(5, 124px);
 	/* grid-template-columns: repeat(4, 50px;) */
 }
 #grid>div{
@@ -12,8 +12,9 @@
 	width: 30px; */
 }
 #a1{
-	grid-column-start: 1;
-	grid-column-end: 5;
+	/* grid-column-start: 1;
+	grid-column-end: 5; */
+	grid-column: span 4 /auto;
 	/* grid-column-start: span 4 / auto; */
 	/* grid-row-start: 1; */
 	/* grid-row-end: 2; */
@@ -21,8 +22,9 @@
 #a2{
 	/* grid-column-start: 1; */
 	/* grid-column-end: 2; */
-	grid-row-start: 2;
-	grid-row-end: 6;
+	/* grid-row-start: 2;
+	grid-row-end: 6; */
+	grid-row: span 4/ auto;
 }
 #a3{
 	/* grid-column-start: 2; */
@@ -31,45 +33,48 @@
 	/* grid-row-end: 3; */
 }
 #a4{
-	grid-column-start: 3;
-	grid-column-end: 5;
+	/* grid-column-start: 3;
+	grid-column-end: 5; */
+	grid-column: span 2/ auto;
 	/* grid-row-start: 2; */
 	/* grid-row-end: 3; */
 }
 #a5{
-	grid-column-start: 2;
-	grid-column-end: 4;
+	/* grid-column-start: 2; */
+	/* grid-column-end: 4; */
+	grid-column: span 2/ auto;
 	/* grid-row-start: 3; */
 	/* grid-row-end: 4; */
 }
 #a6{
-	grid-column-start: 4;
-	grid-column-end: 5;
+	/* grid-column-start: 4;
+	grid-column-end: 5; */
 	/* grid-row-start: 3; */
 	/* grid-row-end: 4; */
 }
 #a7{
-	grid-column-start: 2;
-	grid-column-end: 3;
+	/* grid-column-start: 2;
+	grid-column-end: 3; */
 	/* grid-row-start: 4; */
 	/* grid-row-end: 5; */
 }
 #a8{
-	background-color: red;
-	grid-column-start: 3;
+	/* background-color: red; */
+	/* grid-column-start: 3; */
 	/* grid-column-end: 4; */
 	/* grid-row-start: 4; */
-	grid-row-end: 5;
+	/* grid-row-end: 5; */
 }
 #a9{
-	grid-column-start: 4;
-	grid-column-end: 5;
+	/* grid-column-start: 4; */
+	/* grid-column-end: 5; */
 	/* grid-row-start: 4; */
 	/* grid-row-end: 5; */
 }
 #a10{
-	grid-column-start: 2;
-	grid-column-end: 5;
+	grid-column: span 3/auto;
+	/* grid-column-start: 2; */
+	/* grid-column-end: 5; */
 	/* grid-row-start: 5; */
 	/* grid-row-end: 6; */
 }
