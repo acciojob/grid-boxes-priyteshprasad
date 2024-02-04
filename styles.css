@@ -2,11 +2,13 @@
 #grid{
 	display: grid;
 	grid-template-rows: repeat(5, 124px);
+	gap: 2px;
 	/* grid-template-columns: repeat(4, 50px;) */
 }
 #grid>div{
 	background-color: green;
-	margin: 2px;
+	
+	/* margin: 2px; */
 	color: white;
 	/* height: 30px;
 	width: 30px; */
